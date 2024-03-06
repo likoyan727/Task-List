@@ -9,7 +9,7 @@
   -methods with boolean return value start with words such as "is""has""can" (ex is_not_closed)
   
 2. Style
-  -4 spaces per indentation
+   -4 spaces per indentation
   -Additional 4 spaces to differentiate between normal indentation and hanging indentation
      (ex
      def function_name(var_one, var_two, var_four
@@ -18,7 +18,7 @@
          print(var_one)
       )
   -one empty line separating functions or other related blocks of code
-  -leave comments above functions describing their function
+  -leave comments above functions and classes describing their purpose and functionality
 
 4. Pull Requests
   -All changes must be committed to a separate branch before merging with main
