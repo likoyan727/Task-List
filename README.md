@@ -15,3 +15,9 @@ The app should have the following features:
   -remove/complete a task
   -view completed tasks
   -change completed task to normal incomplete task 
+
+To run:
+Download code
+In command line, cd into project directory
+For macOS or Linux, run python3 TaskList.py
+For Windows, run python TaskList.py
