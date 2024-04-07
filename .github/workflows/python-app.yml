@@ -17,6 +17,7 @@ permissions:
 
 jobs:
   build:
+    name: Test-Python-application
 
     runs-on: ubuntu-latest
 
