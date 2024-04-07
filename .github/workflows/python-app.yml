@@ -5,12 +5,9 @@ name: Python application
 
 on:
   push:
-    branches-ignore: [master, main]
+    branches: [master, main]
   pull_request:
     branches: [master, main]
-
-env:
-  MIN_COVERAGE_REQUIRED: 75
 
 permissions:
   contents: read
