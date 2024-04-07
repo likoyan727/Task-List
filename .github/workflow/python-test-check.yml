@@ -1,6 +1,5 @@
 name: Check Python application
 
-on: [pull_request]
 
 env:
   MIN_COVERAGE_REQUIRED: 75
