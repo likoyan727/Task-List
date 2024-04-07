@@ -4,5 +4,5 @@ def test_dummy():
     pass
 
 def test_dummy2():
-    fail
+    assert 0
     
