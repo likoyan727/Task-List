@@ -6,13 +6,6 @@
 # https://github.com/github/linter
 name: Lint Code Base
 
-on:
-  push:
-    branches-ignore: [master, main]
-  pull_request:
-    branches: [master, main]
-
-
 jobs:
   build:
     name: Lint Code Base
