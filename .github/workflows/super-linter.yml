@@ -8,12 +8,7 @@ name: Check Python application
 
 on:
   push:
-
-env:
-  MIN_COVERAGE_REQUIRED: 75
-
-permissions:
-  contents: read
+    branches: [main, master]
 
 jobs:
   build:
