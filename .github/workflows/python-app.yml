@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "main" ]
+    branches-ignore: [master, main]
   pull_request:
-    branches: [ "main" ]
+    branches: [master, main]
 
 env:
   MIN_COVERAGE_REQUIRED: 75
